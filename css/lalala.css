@@ -2,6 +2,7 @@
     width: 90%;
     max-width: 1000px;
     margin: auto;
+    padding: 5%;
 }
 h1, h2, h3{
     color: #004000;
@@ -14,6 +15,9 @@ h1, h2, h3{
     padding: 5%;
     background-color:  #f9f9f9;
 }
+.blog{
+    padding: 5%;
+}
 .servicos{
     padding: 5%;
 }
@@ -23,9 +27,12 @@ h1, h2, h3{
 }
 .importancia_terapia{
     padding: 5%;
+    margin: auto;
     background-color: #f9f9f9;
 }
-
+.centro{
+    text-align: center;
+}
 .link_principal{
    display: flex;
    justify-content: center;
@@ -89,7 +96,23 @@ h1, h2, h3{
     margin: 8px;          /* espaço entre botões */
     border-radius: 10px;
     text-decoration: none
-    
+}
+.bto3, .bto4{
+    display: inline-block;
+    padding: 15px 30px;   /* aumenta o tamanho do botão */
+    font-size: 18px;      /* aumenta o texto */
+    margin: 8px;          /* espaço entre botões */
+    border-radius: 10px;
+    text-decoration: none
+}
+.bto3{
+    background-color:#004080;
+    color: white;
+}
+.bto4{
+    border: 2px solid #004080;
+    color: #004080;
+    background: white;
 }
 .bto{
     background-color:#004080;
